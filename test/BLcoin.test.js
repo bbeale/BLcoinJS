@@ -1,4 +1,4 @@
-const Blockchain = require('./BLcoin.js');
+const Blockchain = require('../dev/BLcoin.js');
 
 // TODO: write some proper tests
 
