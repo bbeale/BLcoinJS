@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "node dev/NetworkNode.js",
-    "test": "node dev/test.js",
-    "node1": "nodemon --watch dev -e js dev/NetworkNode.js 3001 http://localhost:3001",
-    "node2": "nodemon --watch dev -e js dev/NetworkNode.js 3002 http://localhost:3002",
-    "node3": "nodemon --watch dev -e js dev/NetworkNode.js 3003 http://localhost:3003",
-    "node4": "nodemon --watch dev -e js dev/NetworkNode.js 3004 http://localhost:3004",
-    "node5": "nodemon --watch dev -e js dev/NetworkNode.js 3005 http://localhost:3005"
+    "run": "node src/NetworkNode.js",
+    "test": "node test/BLcoin.test.js",
+    "node1": "nodemon --watch src -e js src/NetworkNode.js 3001 http://localhost:3001",
+    "node2": "nodemon --watch src -e js src/NetworkNode.js 3002 http://localhost:3002",
+    "node3": "nodemon --watch src -e js src/NetworkNode.js 3003 http://localhost:3003",
+    "node4": "nodemon --watch src -e js src/NetworkNode.js 3004 http://localhost:3004",
+    "node5": "nodemon --watch src -e js src/NetworkNode.js 3005 http://localhost:3005"
   },
   "author": "",
   "license": "ISC",
